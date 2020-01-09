@@ -32,9 +32,7 @@ module.exports = {
 				})
 			}
 			const userJson = user.toJSON()
-			res.send({
-				user: user.userJson
-			})
+
 			res.send({
 				user: userJson
 			})
