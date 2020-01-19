@@ -25,4 +25,7 @@ db.sequelize = sequelize
 db.Sequelize = Sequelize
 
 
+db.Category.hasMany(db.CodeEntry);
+
+
 module.exports = db
