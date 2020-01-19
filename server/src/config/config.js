@@ -9,5 +9,8 @@ module.exports = {
 			host: process.env.HOST || 'remotemysql.com',
 			storage: './lxcodebase.sqlite'
 		}
+	},
+	authentication: {
+		jwtSecret: process.env.JWT_SECRET || 'secret'
 	}
 }
