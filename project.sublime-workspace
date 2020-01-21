@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"categ",
+				"categoryId"
+			],
+			[
 				"Datat",
 				"DataTypes\tparameter"
 			],
@@ -63,7 +67,7 @@
 			"file": "server/src/routes.js",
 			"settings":
 			{
-				"buffer_size": 710,
+				"buffer_size": 1162,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -72,25 +76,7 @@
 			"file": "server/src/app.js",
 			"settings":
 			{
-				"buffer_size": 489,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "server/src/models/index.js",
-			"settings":
-			{
-				"buffer_size": 550,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "server/src/models/Category.js",
-			"settings":
-			{
-				"buffer_size": 225,
+				"buffer_size": 477,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -99,16 +85,7 @@
 			"file": "server/src/controllers/CategoryController.js",
 			"settings":
 			{
-				"buffer_size": 513,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "server/src/controllers/AuthenticationController.js",
-			"settings":
-			{
-				"buffer_size": 1251,
+				"buffer_size": 1063,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -117,7 +94,7 @@
 			"file": "server/src/controllers/CodebaseController.js",
 			"settings":
 			{
-				"buffer_size": 499,
+				"buffer_size": 1044,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -126,25 +103,7 @@
 			"file": "server/src/models/CodeEntry.js",
 			"settings":
 			{
-				"buffer_size": 290,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "server/src/models/User.js",
-			"settings":
-			{
-				"buffer_size": 798,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "server/src/config/config.js",
-			"settings":
-			{
-				"buffer_size": 424,
+				"buffer_size": 289,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -195,15 +154,24 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/server",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/server/src",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/server/src/config",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/server/src/controllers",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/server/src/models"
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/server",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/server/src",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/server/src/controllers",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/server/src/models"
 	],
 	"file_history":
 	[
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/server/src/models/index.js",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/server/src/routes.js",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/server/src/app.js",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/server/src/models/Category.js",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/server/src/controllers/CategoryController.js",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/server/src/controllers/AuthenticationController.js",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/server/src/controllers/CodebaseController.js",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/server/src/models/CodeEntry.js",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/server/src/models/User.js",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/server/src/config/config.js",
 		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/project.sublime-project",
 		"/C/Users/Attilio Furci/Documents/[ _Privat/Bank/EBanking.txt",
 		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/sub_project.sublime-workspace",
@@ -321,17 +289,7 @@
 		"/C/Users/Attilio Furci/Downloads/desktop.ini",
 		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/index 2.php",
 		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/stylesheet.css",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/style.css_org",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/style.css_new",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/woocommerce.css",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/demo.html",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/optimanova/demo.html",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/optimanova/stylesheet.css",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/style.css_",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/style.css",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/content-product_cat.php",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/archive-product.php",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/functions 2.php"
+		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/style.css_org"
 	],
 	"find":
 	{
@@ -366,7 +324,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -375,27 +333,27 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 710,
+						"buffer_size": 1162,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								260,
-								260
+								1109,
+								1109
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"use_tab_stops": false
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 12.0,
+						"translation.y": 36.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -404,85 +362,20 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 489,
+						"buffer_size": 477,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								386,
+								374,
 								374
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": false,
-								"indentSize": 4,
-								"tabSize": 4
-							},
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "server/src/models/index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 550,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								550,
-								531
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "server/src/models/Category.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 225,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								208,
-								208
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"use_tab_stops": false
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -492,182 +385,89 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 2,
 					"file": "server/src/controllers/CategoryController.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 513,
+						"buffer_size": 1063,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								511,
-								511
+								927,
+								927
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false,
-							"use_tab_stops": false
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 324.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "server/src/controllers/CodebaseController.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1044,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								905,
+								905
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "server/src/controllers/AuthenticationController.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1251,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								465,
-								465
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false,
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "server/src/controllers/CodebaseController.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 499,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								41,
-								41
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false,
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
+					"buffer": 4,
 					"file": "server/src/models/CodeEntry.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 290,
+						"buffer_size": 289,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								269,
-								269
+								263,
+								263
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false,
-							"use_tab_stops": false
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "server/src/models/User.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 798,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								636,
-								636
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "server/src/config/config.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 424,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								418,
-								418
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false,
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
