@@ -71,6 +71,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "test/lxcodeserver/src/routes.js",
+			"settings":
+			{
+				"buffer_size": 362,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test/lxcodeserver/src/controllers/AuthenticationController.js",
+			"settings":
+			{
+				"buffer_size": 1251,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test/lxcodeserver/src/config/config.js",
+			"settings":
+			{
+				"buffer_size": 424,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -121,10 +145,25 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase"
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src/components",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src/router",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src/services"
 	],
 	"file_history":
 	[
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src/components/Register.vue",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src/services/api.js",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/heroku/lxcodeserver/src/controllers/AuthenticationController.js",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src/App.vue",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src/services/AuthenticationService.js",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/heroku/lxcodeserver/src/routes.js",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src/main.js",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src/components/HelloWorld.vue",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src/router/index.js",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/package.json",
 		"/C/Users/Klaroweb/Documents/Git_repo/Silbentrennung/header.php",
 		"/C/Users/Klaroweb/AppData/Local/Temp/fz3temp-2/.htaccess",
 		"/C/Users/Klaroweb/AppData/Local/Temp/fz3temp-2/.htaccess 2",
@@ -242,17 +281,7 @@
 		"/C/Users/Klaroweb/Documents/Klaroweb/Silbentrennung/Silbentrennung Deployment/header.php",
 		"/C/Users/Klaroweb/Documents/Klaroweb/Silbentrennung/Silbentrennung Deployment/style.css",
 		"/C/Users/Klaroweb/AppData/Local/Temp/scp20251/klarosnap.ch/asset/css/style.css",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp20170/klarosnap.ch/index.html",
-		"/C/Users/Klaroweb/Documents/Klaroweb/Silbentrennung/Silbentrennung Deployment/README.md",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp54712/klarosnap.ch/index.html",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp49477/klarosnap.ch/index.html",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp09036/klarosnap.ch/index.html",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp03501/httpdocs/.htaccess",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp15932/html/app/design/frontend/shopper/default/template/page/template/welcome_message.phtml",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp26170/httpdocs/.htaccess",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp20736/httpdocs/.htaccess",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp19035/httpdocs/.htaccess",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp18487/httpdocs/.htaccess"
+		"/C/Users/Klaroweb/AppData/Local/Temp/scp20170/klarosnap.ch/index.html"
 	],
 	"find":
 	{
@@ -270,6 +299,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Register",
+			"<",
 			"quit-snap-pricing-table-column-price-value",
 			"price-val",
 			"switch__indi",
@@ -339,8 +370,93 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "test/lxcodeserver/src/routes.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 362,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "test/lxcodeserver/src/controllers/AuthenticationController.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1251,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 126.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "test/lxcodeserver/src/config/config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
