@@ -72,27 +72,12 @@
 	"buffers":
 	[
 		{
-			"file": "test/lxcodeserver/src/routes.js",
+			"file": "client/package.json",
 			"settings":
 			{
-				"buffer_size": 362,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "test/lxcodeserver/src/controllers/AuthenticationController.js",
-			"settings":
-			{
-				"buffer_size": 1251,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "test/lxcodeserver/src/config/config.js",
-			"settings":
-			{
-				"buffer_size": 424,
-				"line_ending": "Windows"
+				"buffer_size": 2847,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -146,14 +131,13 @@
 	"expanded_folders":
 	[
 		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase",
-		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client",
-		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src",
-		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src/components",
-		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src/router",
-		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src/services"
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client"
 	],
 	"file_history":
 	[
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/test/lxcodeserver/src/controllers/AuthenticationController.js",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/test/lxcodeserver/src/config/config.js",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/test/lxcodeserver/src/routes.js",
 		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src/components/Register.vue",
 		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src/services/api.js",
 		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/heroku/lxcodeserver/src/controllers/AuthenticationController.js",
@@ -278,10 +262,7 @@
 		"/C/Users/Klaroweb/AppData/Local/Temp/scp51741/klarosnap.ch/asset/css/style.css",
 		"/C/Users/Klaroweb/AppData/Local/Temp/scp50813/klarosnap.ch/asset/css/style.css",
 		"/C/Users/Klaroweb/AppData/Local/Temp/scp45021/klarosnap.ch/index.html",
-		"/C/Users/Klaroweb/Documents/Klaroweb/Silbentrennung/Silbentrennung Deployment/header.php",
-		"/C/Users/Klaroweb/Documents/Klaroweb/Silbentrennung/Silbentrennung Deployment/style.css",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp20251/klarosnap.ch/asset/css/style.css",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp20170/klarosnap.ch/index.html"
+		"/C/Users/Klaroweb/Documents/Klaroweb/Silbentrennung/Silbentrennung Deployment/header.php"
 	],
 	"find":
 	{
@@ -370,88 +351,34 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "test/lxcodeserver/src/routes.js",
+					"file": "client/package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 362,
+						"buffer_size": 2847,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2627,
+								2627
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "test/lxcodeserver/src/controllers/AuthenticationController.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1251,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 126.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "test/lxcodeserver/src/config/config.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 424,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1008.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
