@@ -63,8 +63,16 @@
 			"file": "server/src/routes.js",
 			"settings":
 			{
-				"buffer_size": 710,
+				"buffer_size": 711,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Attilio Furci/Documents/[ _Privat/Bank/EBanking.txt",
+			"settings":
+			{
+				"buffer_size": 1020,
 				"line_ending": "Windows"
 			}
 		},
@@ -197,15 +205,19 @@
 	[
 		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase",
 		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/server",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/server/src",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/server/src/config",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/server/src/controllers",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/server/src/models"
+		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/server/src"
 	],
 	"file_history":
 	[
-		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/project.sublime-project",
+		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/Neues Textdokument.txt",
 		"/C/Users/Attilio Furci/Documents/[ _Privat/Bank/EBanking.txt",
+		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/it-gratisiptvm3u-2020-02-02-1.m3u",
+		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/.htaccess",
+		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/server/.eslintrc.js",
+		"/C/Users/Attilio Furci/Documents/[ _Privat/mySystem/sunrise.txt",
+		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/app.js",
+		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/style.css",
+		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/project.sublime-project",
 		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/sub_project.sublime-workspace",
 		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/info.txt",
 		"/C/Users/Attilio Furci/Documents/[ _Privat/BaseFit/kuendigung.txt",
@@ -228,7 +240,6 @@
 		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/hosts",
 		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/Serial .txt",
 		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/style 3.css",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/style.css",
 		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/style 2.css",
 		"/C/Users/Attilio Furci/Documents/Git_Repo/expresstest/package-lock.json",
 		"/C/Users/Attilio Furci/Documents/Git_Repo/expresstest/.gitignore",
@@ -240,8 +251,6 @@
 		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/Other/notes/ee246a20-e979-463f-9082-f5906778c5c7.txt",
 		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/Other/notes/8.txt",
 		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/.txt",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/Neues Textdokument.txt",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/.htaccess",
 		"/C/Users/Attilio Furci/Documents/[ _Privat/Rezepte/Neues Textdokument.txt",
 		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-3/wp-config.php",
 		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/installer.php",
@@ -327,15 +336,11 @@
 		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/demo.html",
 		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/optimanova/demo.html",
 		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/optimanova/stylesheet.css",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/style.css_",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/style.css",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/content-product_cat.php",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/archive-product.php",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/functions 2.php"
+		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/style.css_"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -349,6 +354,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"giles",
+			"/ch",
+			"ch",
+			"dech",
+			"Old"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -375,15 +385,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 710,
+						"buffer_size": 711,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								260,
-								260
+								711,
+								711
 							]
 						],
 						"settings":
@@ -392,7 +402,7 @@
 							"use_tab_stops": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 12.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -400,6 +410,34 @@
 				},
 				{
 					"buffer": 1,
+					"file": "/C/Users/Attilio Furci/Documents/[ _Privat/Bank/EBanking.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1020,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								152,
+								152
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "server/src/app.js",
 					"semi_transient": false,
 					"settings":
@@ -430,11 +468,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "server/src/models/index.js",
 					"semi_transient": false,
 					"settings":
@@ -459,11 +497,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "server/src/models/Category.js",
 					"semi_transient": false,
 					"settings":
@@ -488,11 +526,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "server/src/controllers/CategoryController.js",
 					"semi_transient": false,
 					"settings":
@@ -518,11 +556,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "server/src/controllers/AuthenticationController.js",
 					"semi_transient": false,
 					"settings":
@@ -548,11 +586,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "server/src/controllers/CodebaseController.js",
 					"semi_transient": false,
 					"settings":
@@ -578,11 +616,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "server/src/models/CodeEntry.js",
 					"semi_transient": false,
 					"settings":
@@ -608,11 +646,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "server/src/models/User.js",
 					"semi_transient": false,
 					"settings":
@@ -637,11 +675,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "server/src/config/config.js",
 					"semi_transient": false,
 					"settings":
@@ -667,7 +705,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
@@ -675,7 +713,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -720,7 +758,7 @@
 	"project": "project.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
