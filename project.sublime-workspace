@@ -72,56 +72,10 @@
 	"buffers":
 	[
 		{
-<<<<<<< HEAD
-			"file": "server/src/routes.js",
+			"file": "client/src/services/AuthenticationService.js",
 			"settings":
 			{
-				"buffer_size": 711,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Attilio Furci/Documents/[ _Privat/Bank/EBanking.txt",
-			"settings":
-			{
-				"buffer_size": 1020,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "server/src/app.js",
-			"settings":
-			{
-				"buffer_size": 489,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "server/src/models/index.js",
-			"settings":
-			{
-				"buffer_size": 550,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "server/src/models/Category.js",
-			"settings":
-			{
-				"buffer_size": 225,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "server/src/controllers/CategoryController.js",
-			"settings":
-			{
-				"buffer_size": 513,
-				"encoding": "UTF-8",
+				"buffer_size": 131,
 				"line_ending": "Windows"
 			}
 		},
@@ -135,40 +89,46 @@
 			}
 		},
 		{
-			"file": "server/src/controllers/CodebaseController.js",
+			"file": "server/src/policies/AuthenticationControllerPolicy.js",
 			"settings":
 			{
-				"buffer_size": 499,
+				"buffer_size": 676,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "server/src/models/CodeEntry.js",
+			"file": "client/src/services/api.js",
 			"settings":
 			{
-				"buffer_size": 290,
+				"buffer_size": 173,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "server/src/models/User.js",
+			"file": "client/src/App.vue",
 			"settings":
 			{
-				"buffer_size": 798,
+				"buffer_size": 340,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "server/src/config/config.js",
-=======
-			"file": "client/package.json",
->>>>>>> c76247242c80e23284f785f1d8c4b26af5a4a298
+			"file": "client/src/router/index.js",
 			"settings":
 			{
-				"buffer_size": 2847,
+				"buffer_size": 384,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/src/components/Register.vue",
+			"settings":
+			{
+				"buffer_size": 990,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -223,152 +183,57 @@
 	},
 	"expanded_folders":
 	[
-<<<<<<< HEAD
-		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/server",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/server/src"
-	],
-	"file_history":
-	[
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/Neues Textdokument.txt",
-		"/C/Users/Attilio Furci/Documents/[ _Privat/Bank/EBanking.txt",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/it-gratisiptvm3u-2020-02-02-1.m3u",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/.htaccess",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/server/.eslintrc.js",
-		"/C/Users/Attilio Furci/Documents/[ _Privat/mySystem/sunrise.txt",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/app.js",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/style.css",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/project.sublime-project",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/sub_project.sublime-workspace",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/info.txt",
-		"/C/Users/Attilio Furci/Documents/[ _Privat/BaseFit/kuendigung.txt",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/server/src/policies/AuthenticationControllerPolicy.js",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/wg.txt",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/server/src/controllers/AuthenticationController.js",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/server/src/config/config.js",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/server/src/models/User.js",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/server/src/routes.js",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/server/src/models/index.js",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/server/src/app.js",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/server/src/routes/routes.js",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/LXCODEBASE/lxcodebase/server/package.json",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/expresstest/index.js",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/expresstest/package.json",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/expresstest/Procfile",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/expresstest/routes/routes.js",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/styles.18d812e458e7cb1b69b7.css",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/Advanced.SystemCare.Ultimate.13/license/readme.txt",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/hosts",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/Serial .txt",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/style 3.css",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/style 2.css",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/expresstest/package-lock.json",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/expresstest/.gitignore",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/expresstest/.git/COMMIT_EDITMSG",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/i.txt",
-		"/C/Users/Attilio Furci/Downloads/Triple Spiral Audio Flow/Flow snapshot location.txt",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/wp-config.php",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/MEVN-boilerplate-master/README.md",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/Other/notes/ee246a20-e979-463f-9082-f5906778c5c7.txt",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/Other/notes/8.txt",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/.txt",
-		"/C/Users/Attilio Furci/Documents/[ _Privat/Rezepte/Neues Textdokument.txt",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-3/wp-config.php",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/installer.php",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/a.js",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/invoice.php",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/Other/notes/7cc148e3-1a65-4cdd-90eb-1fee6fd9b4f3.txt",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/archive.php",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/home.php",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/page.php",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/functions.php",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/adidas_Fitness_Workouts_v4.6_sanet.st/Info.txt",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/Projekt NOTELX/notelx/src/styles.css",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/Projekt NOTELX/notelx/angular.json",
-		"/C/Users/Attilio Furci/Downloads/MS Office 2019 Pro Plus Retail x86 x64  MULTi-22 OCT 2018 {Gen2}/Extras/KMS & 7-Zip/NOTE!.txt",
-		"/C/Users/Attilio Furci/Downloads/MS Office 2019 Pro Plus Retail x86 x64  MULTi-22 OCT 2018 {Gen2}/Extras/MS Office 2019 Pro Plus Retail X86 X64  MULTi-22 OCT 2018 {Gen2}.txt",
-		"/C/Users/Attilio Furci/Documents/[ _Privat/Adressen/Marisa Furci.txt",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/KMS & R2V/C2R-R2V_5/ReadMe.txt",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/header.php",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/n-b.ch",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/laravel/laravel/routes/api.php",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/laravel/laravel/routes/web.php",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/laravel/laravel/app/Http/routes.php",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/MDB-Free_4.9.0/MDB-Free/index.html",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/laravel/laravel/config/database.php",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/laravel/laravel/.env",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/laravel/laravel/config/app.php",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/laravel/laravel/public/index.php",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/DirectoryGit.txt",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/DirectoryReg.txt",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/Neuer Ordner/Backup Lenovo/info.txt",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/a.html",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/wp-config.php",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/Php.2019.2.4.WT/readme.txt",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/bs.html",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/HTTP_Debugger_pro_9.9_fu11/HTTP Debugger pro 9.9_fu11/Crack/readme.txt",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/simple-main.js",
-		"/C/Users/Attilio Furci/Downloads/inf.txt",
-		"/C/Program Files/JetBrains/PhpStorm2019.1.2/bin/phpstorm64.exe.vmoptions",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/footer.php",
-		"/C/Users/Attilio Furci/Downloads/Beatformer.v1.2.16.Incl.Keygen-R2R/Accusonus.Beatformer.v1.2.16.Incl.Keygen-R2R/R2R.nfo",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/footer.php",
-		"/C/Users/Attilio Furci/Downloads/Atlas 1.4.2 x64/info.txt",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/rename-wp-login.php",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/woocommerce-bulk-discount.php",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/wc_bulk_discount-de_DE-backup-201911011837540.po~",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/7zO86F807AD/Credits.txt",
-		"/C/Users/Attilio Furci/Documents/Git_Repo/HTML 5 Basic Template/index.html",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/index.php",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/access_log",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/so-clean-up-wp-seo.php",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/error_log",
-		"/C/Windows/System32/drivers/etc/hosts",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/HTTP.Debugger.Pro-DARKSiDERS.Keygen.Only/httpdbp.nfo",
-		"/C/Users/Attilio Furci/Documents/[ System/ocloud.txt",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/a.htaccess",
-		"/C/Users/Attilio Furci/Documents/[ System/account.txt",
-		"/C/Users/Attilio Furci/Documents/[ System/icloud.txt",
-		"/C/Users/Attilio Furci/Documents/[ System/quanton.txt",
-		"/C/Users/Attilio Furci/Documents/[ System/xamarin.txt",
-		"/C/Users/Attilio Furci/Documents/[ System/windows_login.txt",
-		"/C/Users/Attilio Furci/Documents/[ System/wifi_family.txt",
-		"/C/Users/Attilio Furci/Documents/[ System/vmware_linux.txt",
-		"/C/Users/Attilio Furci/Documents/[ System/vmware.txt",
-		"/C/_Portable/Software/RadioSure/Stations/stations.rsdx",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/7zO00201074/ReadME.txt",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/Radiosure.2.2.1046.KaranPC/ReadME.txt",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/readme.html",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/animate.css",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/index.html",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/jquery.txt",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/wp-config 2.php",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/ikamed.txt",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/web.config",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/sdfaf.txt",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/wordfence-waf.php",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/.user.ini",
-		"/C/Users/Attilio Furci/Downloads/desktop.ini",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/index 2.php",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/stylesheet.css",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/style.css_org",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/style.css_new",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/woocommerce.css",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/demo.html",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/optimanova/demo.html",
-		"/C/Users/Attilio Furci/Anwendungsdaten/Desktop/optimanova/stylesheet.css",
-		"/C/Users/Attilio Furci/AppData/Local/Temp/fz3temp-2/style.css_"
-=======
 		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase",
-		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client"
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src/components",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src/router",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src/services",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/server",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/server/src",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/server/src/controllers",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/server/src/policies"
 	],
 	"file_history":
 	[
+		"/C/Users/Klaroweb/AppData/Local/Temp/fz3temp-2/store.php",
+		"/C/Users/Klaroweb/AppData/Local/Temp/fz3temp-2/store-sidebar.php",
+		"/C/Users/Klaroweb/AppData/Local/Temp/fz3temp-2/store-header.php",
+		"/C/Users/Klaroweb/Documents/FTP Working Dir/DOKAN/dokan-pro/languages/dokan.pot",
+		"/C/Users/Klaroweb/AppData/Local/Temp/fz3temp-2/functions.php",
+		"/C/Users/Klaroweb/Desktop/style.css",
+		"/C/Users/Klaroweb/AppData/Local/Temp/fz3temp-2/dokan-pro.php",
+		"/C/Users/Klaroweb/Desktop/dokan-pro-de_DE_formal.po",
+		"/C/Users/Klaroweb/AppData/Local/Temp/fz3temp-3/functions.php",
+		"/C/Users/Klaroweb/AppData/Local/Temp/fz3temp-2/search_keywords.txt",
+		"/C/Users/Klaroweb/AppData/Local/Temp/scp20820/online-marktplatz.junge-altstadt.ch/wp-content/plugins/dokan-lite/includes/wc-functions.php",
+		"/C/Users/Klaroweb/Desktop/LS-lava_byjuno 1.2.1/LS-lava_byjuno/lava_byjuno/classes/controller.class.php",
+		"/C/Users/Klaroweb/AppData/Local/Temp/fz3temp-2/style.css",
+		"/C/Users/Klaroweb/Desktop/controller.class.php",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src/services/api.js",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src/components/Register.vue",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/lxcodeserver/src/config/config.js",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/lxcodeserver/src/routes.js",
+		"/C/Users/Klaroweb/Desktop/email-order-details.php",
+		"/C/Users/Klaroweb/Desktop/functions.php",
+		"/C/Users/Klaroweb/AppData/Local/Temp/scp11760/online-marktplatz.junge-altstadt.ch/wp-content/plugins/dokan-lite/includes/functions.php",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/server/src/routes.js",
+		"/C/Users/Klaroweb/AppData/Local/Temp/scp11017/online-marktplatz.junge-altstadt.ch/wp-content/plugins/dokan-lite/includes/functions.php",
+		"/C/Users/Klaroweb/AppData/Local/Temp/scp09306/online-marktplatz.junge-altstadt.ch/wp-content/plugins/dokan-lite/templates/store-lists-loop.php",
+		"/C/Users/Klaroweb/AppData/Local/Temp/scp08591/online-marktplatz.junge-altstadt.ch/wp-content/plugins/dokan-lite/templates/store-lists.php",
+		"/C/Users/Klaroweb/Desktop/email-order-items.php",
+		"/C/Users/Klaroweb/Desktop/customer-note.php",
+		"/C/Users/Klaroweb/Desktop/email-addresses.php",
+		"/C/Users/Klaroweb/Desktop/email-customer-details.php",
+		"/C/Users/Klaroweb/Desktop/email-styles.php",
+		"/C/Users/Klaroweb/Desktop/customer-processing-order.php",
+		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/package.json",
+		"/C/Users/Klaroweb/Desktop/LS-lava_byjuno/lava_byjuno/admin/dashboard.php",
+		"/C/Users/Klaroweb/Desktop/LS-lava_byjuno/lava_byjuno/classes/controller.class.php",
+		"/C/Users/Klaroweb/Desktop/show-lowest-woo-variable-prices.php",
 		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/test/lxcodeserver/src/controllers/AuthenticationController.js",
 		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/test/lxcodeserver/src/config/config.js",
 		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/test/lxcodeserver/src/routes.js",
-		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src/components/Register.vue",
-		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src/services/api.js",
 		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/heroku/lxcodeserver/src/controllers/AuthenticationController.js",
 		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src/App.vue",
 		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src/services/AuthenticationService.js",
@@ -376,7 +241,6 @@
 		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src/main.js",
 		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src/components/HelloWorld.vue",
 		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/src/router/index.js",
-		"/C/Users/Klaroweb/Documents/Git_repo/lxcodebase/lxcodebase/client/package.json",
 		"/C/Users/Klaroweb/Documents/Git_repo/Silbentrennung/header.php",
 		"/C/Users/Klaroweb/AppData/Local/Temp/fz3temp-2/.htaccess",
 		"/C/Users/Klaroweb/AppData/Local/Temp/fz3temp-2/.htaccess 2",
@@ -395,7 +259,6 @@
 		"/C/Users/Klaroweb/AppData/Local/Temp/scp54203/klarosnap.ch/index.html",
 		"/C/Users/Klaroweb/AppData/Local/Temp/scp54177/klarosnap.ch/index.html",
 		"/C/Users/Klaroweb/Desktop/themeforest-rouSFHwL-uncode-creative-multiuse-wordpress-theme-wordpress-theme/uncode 2/style.css",
-		"/C/Users/Klaroweb/Desktop/functions.php",
 		"/C/Users/Klaroweb/Desktop/themeforest-rouSFHwL-uncode-creative-multiuse-wordpress-theme-wordpress-theme/uncode_new/style.css",
 		"/C/Users/Klaroweb/AppData/Local/Temp/scp53347/httpdocs/wp-content/themes/uncode-child/style.css",
 		"/C/Users/Klaroweb/AppData/Local/Temp/scp52228/httpdocs/wp-config.php",
@@ -460,49 +323,18 @@
 		"/C/Users/Klaroweb/AppData/Local/Temp/scp37070/klarosnap.ch/asset/css/style.css",
 		"/C/Users/Klaroweb/AppData/Local/Temp/scp34005/klarosnap.ch/index.html",
 		"/C/Users/Klaroweb/AppData/Local/Temp/scp22757/klarosnap.ch/asset/css/style.css",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp17269/klarosnap.ch/index.html",
-		"/C/Users/Klaroweb/Desktop/web.config",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp10828/klarosnap.ch/index.html",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp10996/klarosnap.ch/index.html",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp10649/klarosnap.ch/asset/css/style.css",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp37398/klarosnap.ch/asset/css/style.css",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp50959/klarosnap.ch/index.html",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp55300/klarosnap.ch/index.html",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp56153/klarosnap.ch/asset/css/style.css",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp56990/klarosnap.ch/asset/css/style.css",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp55944/klarosnap.ch/index.html",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp54308/klarosnap.ch/index.html",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp54719/klarosnap.ch/index.html",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp50613/klarosnap.ch/index.html",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp48762/klarosnap.ch/asset/css/style.css",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp47148/klarosnap.ch/asset/css/style.css",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp44574/klarosnap.ch/asset/css/style.css",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp39852/klarosnap.ch/asset/css/style.css",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp38932/klarosnap.ch/asset/css/style.css",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp37818/klarosnap.ch/asset/css/elements.css",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp32020/klarosnap.ch/index.html",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp28675/klarosnap.ch/index.html",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp52163/klarosnap.ch/index.html",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp51135/klarosnap.ch/index.html",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp20150/klarosnap.ch/asset/css/style.css",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp48932/klarosnap.ch/asset/css/style.css",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp55513/klarosnap.ch/asset/css/style.css",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp52970/klarosnap.ch/asset/css/style.css",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp51741/klarosnap.ch/asset/css/style.css",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp50813/klarosnap.ch/asset/css/style.css",
-		"/C/Users/Klaroweb/AppData/Local/Temp/scp45021/klarosnap.ch/index.html",
-		"/C/Users/Klaroweb/Documents/Klaroweb/Silbentrennung/Silbentrennung Deployment/header.php"
->>>>>>> c76247242c80e23284f785f1d8c4b26af5a4a298
+		"/C/Users/Klaroweb/AppData/Local/Temp/scp17269/klarosnap.ch/index.html"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
 		"height": 101.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -510,13 +342,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-<<<<<<< HEAD
-			"giles",
-			"/ch",
-			"ch",
-			"dech",
-			"Old"
-=======
+			"$store_address",
+			"state",
+			"error",
+			"$posts_per_page ",
+			"Payment err",
+			"payment erro",
+			"parser:",
+			"parser: \"babylon\" ",
+			"babylon",
+			"Fehler",
+			"Payment err",
+			"store_address",
+			"Zahlung abgele",
+			"payment error",
+			"Payment err",
+			"Pa",
+			"woofrom",
 			"Register",
 			"<",
 			"quit-snap-pricing-table-column-price-value",
@@ -567,7 +409,6 @@
 			"center",
 			"http:",
 			"=\"./"
->>>>>>> c76247242c80e23284f785f1d8c4b26af5a4a298
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -589,108 +430,29 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "client/package.json",
+					"file": "client/src/services/AuthenticationService.js",
 					"semi_transient": false,
 					"settings":
 					{
-<<<<<<< HEAD
-						"buffer_size": 711,
-=======
-						"buffer_size": 2847,
->>>>>>> c76247242c80e23284f785f1d8c4b26af5a4a298
+						"buffer_size": 131,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-<<<<<<< HEAD
-								711,
-								711
-=======
-								2627,
-								2627
->>>>>>> c76247242c80e23284f785f1d8c4b26af5a4a298
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-<<<<<<< HEAD
-						"translation.y": 0.0,
-=======
-						"translation.y": 1008.0,
->>>>>>> c76247242c80e23284f785f1d8c4b26af5a4a298
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-<<<<<<< HEAD
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/Attilio Furci/Documents/[ _Privat/Bank/EBanking.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1020,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								152,
-								152
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "server/src/app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 489,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								386,
-								374
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": false,
-								"indentSize": 4,
-								"tabSize": 4
-							},
-							"use_tab_stops": false
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -700,95 +462,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "server/src/models/index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 550,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								550,
-								531
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "server/src/models/Category.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 225,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								208,
-								208
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "server/src/controllers/CategoryController.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 513,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								511,
-								511
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false,
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
+					"buffer": 1,
 					"file": "server/src/controllers/AuthenticationController.js",
 					"semi_transient": false,
 					"settings":
@@ -800,75 +474,101 @@
 						"selection":
 						[
 							[
-								465,
-								465
+								322,
+								322
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false,
-							"use_tab_stops": false
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 126.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "server/src/controllers/CodebaseController.js",
+					"buffer": 2,
+					"file": "server/src/policies/AuthenticationControllerPolicy.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 499,
+						"buffer_size": 676,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								41,
-								41
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false,
-							"use_tab_stops": false
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "server/src/models/CodeEntry.js",
+					"buffer": 3,
+					"file": "client/src/services/api.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 290,
+						"buffer_size": 173,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								269,
-								269
+								81,
+								81
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false,
-							"use_tab_stops": false
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "client/src/App.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 340,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -878,72 +578,71 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "server/src/models/User.js",
+					"buffer": 5,
+					"file": "client/src/router/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 798,
+						"buffer_size": 384,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								636,
-								636
+								289,
+								289
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"use_tab_stops": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "server/src/config/config.js",
+					"buffer": 6,
+					"file": "client/src/components/Register.vue",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 424,
+						"buffer_size": 990,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								418,
-								418
+								975,
+								975
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false,
-							"use_tab_stops": false
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 324.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 2,
 					"type": "text"
-=======
->>>>>>> c76247242c80e23284f785f1d8c4b26af5a4a298
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -988,7 +687,7 @@
 	"project": "project.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1026,7 +725,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 219.0,
+	"side_bar_width": 302.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
