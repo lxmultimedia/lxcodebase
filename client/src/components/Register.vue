@@ -23,7 +23,7 @@
             class="cyan"
             @click="register">
             Register
-          </v-btn>        
+          </v-btn>
           </div>
       </div>
     </v-container>
