@@ -1,6 +1,14 @@
 <template>
   <div id="app">
-    <router-view/>
+    <v-app>
+      <v-content>
+        <v-container>
+          <v-toolbar>Hello world
+          </v-toolbar>
+        </v-container>
+        <router-view/>
+      </v-content>
+    </v-app>
   </div>
 </template>
 
