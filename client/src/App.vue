@@ -1,10 +1,8 @@
 <template>
   <div id="app">
-    <v-app>
-      <v-content fluid>
-        <v-toolbar fixed dark>
-          LX CodeBase
-        </v-toolbar>
+    <v-app fluid>
+      <v-content>
+        <page-header />
         <v-container>
           <router-view/>
         </v-container>
@@ -14,8 +12,12 @@
 </template>
 
 <script>
+import PageHeader from '@/components/Header.vue'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    PageHeader
+  }
 }
 </script>
 
