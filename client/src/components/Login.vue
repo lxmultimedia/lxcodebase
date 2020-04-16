@@ -1,32 +1,36 @@
 <template>
   <v-layout column>
     <v-container>
-      <v-toolbar dark>
-        Login
-      </v-toolbar>
-      <div class="white elevation-2">
-        <div class="pl-4 pr-4 pt-2 pb-2">
-          <v-text-field
-            type="email"
-            name="email"
-            v-model = "email"
-            placeholder="email" />
-          <br>
-          <v-text-field
-            type="password"
-            name="password"
-            v-model = "password"
-            placeholder="password" />
-          <br>
-          <div class="error" v-html="error"></div>
-          <v-btn
-            dark
-            class="blue"
-            @click="login">
-            Login
-          </v-btn>
-          </div>
-      </div>
+      <v-flex xs8 offset-xs2>
+        <v-toolbar dark
+        color="indigo">
+          Login
+        </v-toolbar>
+        <div class="white elevation-2">
+          <div class="pl-4 pr-4 pt-2 pb-2">
+            <v-text-field
+              type="email"
+              name="email"
+              v-model = "email"
+              placeholder="email" />
+            <br>
+            <v-text-field
+              type="password"
+              name="password"
+              v-model = "password"
+              placeholder="password" />
+            <br>
+            <div class="error" v-html="error"></div>
+            <v-btn
+              dark
+              large
+              class="indigo"
+              @click="login">
+              Login
+            </v-btn>
+            </div>
+        </div>
+      </v-flex>
     </v-container>
   </v-layout>
 </template>
@@ -44,10 +48,13 @@ export default {
   methods: {
     async login () {
       try {
-        await AuthenticationService.login({
+        const response = await AuthenticationService.login({
           email: this.email,
           password: this.password
         })
+        this.$store.dispatch('setToken', response.data.token)
+        this.$store.dispatch('setUser', response.data.user)
+        this.$router.push('/browse')
       } catch (error) {
         this.error = error.response.data.error
       }
@@ -59,6 +66,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   .error {
-    color: red;
+    color: white;
+    margin: 15px 0px;
   }
 </style>
