@@ -4,8 +4,8 @@
       <v-list-item-action>
         <v-icon>mdi-apps</v-icon>
       </v-list-item-action>
-      <v-list-item-content>
-        <v-list-item-title @click="selectCategory(c)">{{ c.title }}</v-list-item-title>
+      <v-list-item-content @click="selectCategory(c)">
+        <v-list-item-title>{{ c.title }}</v-list-item-title>
       </v-list-item-content>
       <v-list-item-action @click="deleteCategory(c)" v-if="$store.state.isUserLoggedIn">
         <v-icon>mdi-delete</v-icon>

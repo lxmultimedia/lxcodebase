@@ -83,7 +83,7 @@
         small
         outlined
       >
-      {{ entry.createdAt }}
+      {{ sqlToJsDate(entry.createdAt) }}
       </v-chip>
     </div>
     <div class="listingcontent chip">
@@ -98,7 +98,7 @@
         small
         outlined
       >
-      {{ entry.updatedAt }}
+      {{ sqlToJsDate(entry.updatedAt) }}
       </v-chip>
     </div>
     <div class="listingbutton" v-if="this.$store.state.isUserLoggedIn">
@@ -123,6 +123,24 @@ export default {
     },
     getEntryId () {
       return this.entry.id
+    }
+  },
+  methods: {
+    sqlToJsDate (sqlDate) {
+      // sqlDate in SQL DATETIME format ("yyyy-mm-dd hh:mm:ss.ms")
+      var sqlDateArr1 = sqlDate.split('-')
+      // format of sqlDateArr1[] = ['yyyy','mm','dd hh:mm:ms']
+      var sYear = sqlDateArr1[0]
+      var sMonth = (Number(sqlDateArr1[1]) - 1).toString()
+      var sqlDateArr2 = sqlDateArr1[2].split('T')
+      // format of sqlDateArr2[] = ['dd', 'hh:mm:ss.ms']
+      var sDay = sqlDateArr2[0]
+      var sqlDateArr3 = sqlDateArr2[1].split(':')
+      // format of sqlDateArr3[] = ['hh','mm','ss.ms']
+      var sHour = sqlDateArr3[0]
+      var sMinute = sqlDateArr3[1]
+
+      return new Date(sYear, sMonth, sDay, sHour, sMinute, 0, 0).toLocaleString()
     }
   },
   mounted () {
