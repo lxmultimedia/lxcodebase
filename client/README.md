@@ -2,6 +2,8 @@
 
 > LX Codebase Client
 
+written in Vue.js
+
 
 ## Build Setup
 
