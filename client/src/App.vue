@@ -2,15 +2,15 @@
   <vue-custom-scrollbar class="scroll-area"  :settings="settings">
     <v-layout id="app">
       <v-container>
-          <v-app id="inspire">
+          <v-app>
             <page-header></page-header>
-              <v-content>
-                <v-container fluid>
-                  <v-row>
-                    <router-view class="fill" :key="$route.path"></router-view>
-                  </v-row>
-                </v-container>
-              </v-content>
+            <v-content>
+              <v-container fluid>
+                <v-row>
+                  <router-view class="fill" :key="$route.path"></router-view>
+                </v-row>
+              </v-container>
+            </v-content>
             <v-footer color="indigo" app>
               <span class="white--text">&copy; 2020 - www.lxmedia.tk</span>
             </v-footer>
@@ -65,5 +65,8 @@ export default {
 }
 ::-webkit-scrollbar {
   width: 0px;
+}
+.container {
+    max-width: 90% !important;
 }
 </style>

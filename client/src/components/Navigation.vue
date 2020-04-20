@@ -101,7 +101,6 @@ export default {
   height: calc(100vh - 140px);
 }
 .icon {
-  max-width: 100%;
   text-align: left;
   overflow: hidden;
 }
