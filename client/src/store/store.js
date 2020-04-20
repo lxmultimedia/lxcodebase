@@ -106,8 +106,10 @@ export default new Vuex.Store({
         commit('newCategory')
       })
     },
-    setCategories ({commit}, payload) {
-      commit('setCategories', payload)
+    updateCategory ({commit}, payload) {
+      CodebaseService.updateCategory(payload).then(response => {
+        console.log(response.data)
+      })
     },
     setSelectedCategory ({commit}, payload) {
       commit('setSelectedCategory', payload)

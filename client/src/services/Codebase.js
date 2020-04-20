@@ -16,6 +16,9 @@ export default {
   postCategory (value) {
     return Api().post('/category', value)
   },
+  updateCategory (value) {
+    return Api().put('/category/' + value.id, value)
+  },
   deleteCategory (value) {
     return Api().delete('/category/' + value)
   },
