@@ -2,33 +2,39 @@
   <v-layout column>
     <v-container>
       <v-flex xs8 offset-xs2>
-        <v-toolbar dark
-        color="indigo">
-          Login
-        </v-toolbar>
-        <div class="white elevation-2">
-          <div class="pl-4 pr-4 pt-2 pb-2">
-            <v-text-field
-              type="email"
-              name="email"
-              v-model = "email"
-              placeholder="email" />
-            <br>
-            <v-text-field
-              type="password"
-              name="password"
-              v-model = "password"
-              placeholder="password" />
-            <br>
-            <div class="error" v-html="error"></div>
-            <v-btn
-              dark
-              large
-              class="indigo"
-              @click="login">
-              Login
-            </v-btn>
-            </div>
+        <div class="white">
+          <v-toolbar dark
+          color="indigo">
+            Login
+          </v-toolbar>
+          <div class="pl-4 pr-4 pt-2 pb-2 panel">
+            <form
+            name="lxcodebase_login">
+              <v-text-field
+                type="email"
+                name="email"
+                v-model = "email"
+                placeholder="email"
+                @keyup.enter.native = "onSubmit()" />
+              <br>
+              <v-text-field
+                type="password"
+                name="password"
+                v-model = "password"
+                placeholder = "password"
+                @keyup.enter.native = "onSubmit()" />
+              <div class="error" v-html="error" v-if="error"></div>
+              <br>
+              <v-btn
+                id="btnSubmit"
+                dark
+                large
+                class="indigo"
+                @click="login">
+                Login
+              </v-btn>
+            </form>
+          </div>
         </div>
       </v-flex>
     </v-container>
@@ -58,6 +64,9 @@ export default {
       } catch (error) {
         this.error = error.response.data.error
       }
+    },
+    onSubmit () {
+      this.login()
     }
   }
 }
@@ -65,8 +74,15 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .error {
-    color: white;
-    margin: 15px 0px;
-  }
+.error {
+  color: white;
+  margin: 15px 0px;
+  padding: 5px;
+}
+#btnSubmit {
+  margin-bottom: 20px;
+}
+.panel {
+  border: 1px solid #ddd;
+}
 </style>
