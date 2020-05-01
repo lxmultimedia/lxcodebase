@@ -7,7 +7,8 @@
             <v-content>
               <v-container fluid>
                 <v-row>
-                  <router-view class="fill" :key="$route.path"></router-view>
+                  <clip-loader class="spinner" :size=20 color="#3F51B5" sizeUnit="px" v-if="isLoading"></clip-loader>
+                  <router-view class="fill" :key="$route.path" v-if="!isLoading"></router-view>
                 </v-row>
               </v-container>
             </v-content>
@@ -23,6 +24,7 @@
 <script>
 import PageHeader from '@/components/Header.vue'
 import vueCustomScrollbar from 'vue-custom-scrollbar'
+
 export default {
   name: 'App',
   components: {
@@ -33,14 +35,21 @@ export default {
     source: String
   },
   data: () => ({
+    isLoading: false,
     drawer: null,
     settings: {
       maxScrollbarLength: null
     }
   }),
   mounted () {
-    this.$store.dispatch('fetchEntries')
-    this.$store.dispatch('fetchCategories')
+    this.isLoading = true
+    this.$store.dispatch('fetchCategories').then(() => {
+      this.$store.dispatch('fetchEntries').then(() => {
+        setTimeout(() => {
+          this.isLoading = false
+        }, 0)
+      })
+    })
   }
 }
 </script>
@@ -68,5 +77,8 @@ export default {
 }
 .container {
     max-width: 90% !important;
+}
+.spinner {
+  margin: 5% auto;
 }
 </style>

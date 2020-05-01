@@ -6,8 +6,11 @@ import router from './router'
 import vuetify from '@/plugins/vuetify' // path to vuetify export
 import { sync } from 'vuex-router-sync'
 import store from '@/store/store'
+import { VueSpinners } from '@saeris/vue-spinners'
 
 sync(store, router)
+
+Vue.use(VueSpinners)
 
 new Vue({
   router,

@@ -1,7 +1,6 @@
 <template>
-  <v-layout>
-    <v-container>
-      <v-flex xs8 offset-xs2>
+  <div>
+      <v-flex xs12 md8 offset-md2>
         <div class="white">
           <v-toolbar dark
           color="indigo">
@@ -39,8 +38,7 @@
           </div>
         </div>
       </v-flex>
-    </v-container>
-  </v-layout>
+    </div>
 </template>
 
 <script>

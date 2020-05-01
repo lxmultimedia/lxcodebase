@@ -22,6 +22,9 @@ export default new Vuex.Store({
     getEntries: state => {
       return state.entries
     },
+    getCategories: state => {
+      return state.categories
+    },
     getCategory: state => (id) => {
       return state.categories.find(cat => cat.id === id)
     },
@@ -35,9 +38,6 @@ export default new Vuex.Store({
     },
     getCategoryTitle: state => (id) => {
       return state.categories.find(e => e.id === id).title
-    },
-    getCategories: state => {
-      return state.categories
     }
   },
   mutations: {
