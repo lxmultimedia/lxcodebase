@@ -1,5 +1,5 @@
 # lxcodebase
-Web application written in VUE.js used to manage Code Snippets
+Web application written in VUE.js 2 used to manage Code Snippets
 
 includes:
 - Authentication
