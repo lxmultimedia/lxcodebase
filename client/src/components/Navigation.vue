@@ -97,7 +97,26 @@ export default {
       }
     },
     deleteCategory (c) {
-      this.$store.dispatch('deleteCategory', c)
+      // Trigger a confirmation dialog, https://www.npmjs.com/package/vuejs-dialog
+      let message = `Are you sure to delete "${c.title}"?<br><br>All listings will be deleted.`
+      let options = {
+        html: true, // set to true if your message contains HTML tags. eg: "Delete <b>Foo</b> ?"
+        loader: false, // set to true if you want the dailog to show a loader after click on "proceed"
+        reverse: false, // switch the button positions (left to right, and vise versa)
+        okText: 'Delete',
+        cancelText: 'Close',
+        animation: 'zoom', // Available: "zoom", "bounce", "fade"
+        type: 'basic', // coming soon: 'soft', 'hard'
+        clicksCount: 1, // for soft confirm, user will be asked to click on "proceed" btn 3 times before actually proceeding
+        backdropClose: false, // set to true to close the dialog when clicking outside of the dialog window, i.e. click landing on the mask
+        customClass: 'dialog' // Custom class to be injected into the parent node for the current dialog instance
+      }
+      this.$dialog
+        .confirm(message, options)
+        .then(() => {
+          this.$store.dispatch('deleteCategory', c)
+        })
+        .catch(() => {})
     },
     editCategory (c) {
       this.categoryEdit = c

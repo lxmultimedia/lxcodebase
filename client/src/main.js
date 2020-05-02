@@ -7,10 +7,13 @@ import vuetify from '@/plugins/vuetify' // path to vuetify export
 import { sync } from 'vuex-router-sync'
 import store from '@/store/store'
 import { VueSpinners } from '@saeris/vue-spinners'
+import VuejsDialog from 'vuejs-dialog'
+import 'vuejs-dialog/dist/vuejs-dialog.min.css'
 
 sync(store, router)
 
 Vue.use(VueSpinners)
+Vue.use(VuejsDialog)
 
 new Vue({
   router,

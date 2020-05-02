@@ -81,4 +81,15 @@ export default {
 .spinner {
   margin: 5% auto;
 }
+* {
+  font-family: "Ubuntu";
+}
+.dialog .dg-btn--ok {
+  color: red;
+  border: 1px solid red;
+}
+.dialog .dg-btn--cancel {
+  background: #3F51B5;
+  border: 1px solid #3F51B5;
+}
 </style>

@@ -99,6 +99,7 @@ export default new Vuex.Store({
     deleteCategory ({commit}, payload) {
       CodebaseService.deleteCategory(payload.id).then(response => {
         commit('deleteCategory', payload)
+        router.push('/')
       })
     },
     getCategory ({commit}, payload) {

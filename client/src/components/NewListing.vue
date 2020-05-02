@@ -87,7 +87,6 @@ export default {
   data () {
     return {
       categoryitems: null,
-      selectedCategory: null,
       entry: {},
       isNewListing: false
     }
@@ -99,7 +98,6 @@ export default {
     saveListing () {
       if (this.isNewListing) {
         if (!this.entry.title || !this.entry.CategoryId) {
-          console.log('no')
           return
         }
         this.$store.dispatch('newListing', this.entry)
