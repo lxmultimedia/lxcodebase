@@ -42,14 +42,14 @@ export default new Router({
           beforeEnter: authGuard
         },
         {
-          path: ':id',
-          name: 'edit',
+          path: 'new',
+          name: 'new',
           component: NewPost,
           beforeEnter: authGuard
         },
         {
-          path: 'new',
-          name: 'new',
+          path: ':id',
+          name: 'edit',
           component: NewPost,
           beforeEnter: authGuard
         }
