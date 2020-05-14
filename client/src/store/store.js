@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import createPersistedState from 'vuex-persistedstate'
+// import createPersistedState from 'vuex-persistedstate'
 import CodebaseService from '@/services/Codebase'
 import router from '../router'
 
@@ -8,11 +8,12 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   strict: true,
-  plugins: [createPersistedState()],
+  // plugins: [createPersistedState()],
   state: {
-    token: null,
+    token: localStorage.getItem('lxcb-token'),
+    tokenExpiry: localStorage.getItem('lxcb-expires'),
     user: null,
-    isUserLoggedIn: false,
+    isUserLoggedIn: !!localStorage.getItem('lxcb-token'),
     entries: [],
     categories: [],
     selectedCategory: null,
@@ -38,16 +39,36 @@ export default new Vuex.Store({
     },
     getCategoryTitle: state => (id) => {
       return state.categories.find(e => e.id === id).title
+    },
+    getToken: state => {
+      return state.token
+    },
+    getTokenExpires: state => {
+      return state.tokenExpiry
     }
   },
   mutations: {
     setToken (state, token) {
+      if (token == null) {
+        localStorage.removeItem('lxcb-token')
+        localStorage.removeItem('lxcb-expires')
+      } else {
+        localStorage.setItem('lxcb-token', token)
+      }
       state.token = token
       if (token) {
         state.isUserLoggedIn = true
       } else {
         state.isUserLoggedIn = false
       }
+    },
+    setExpires (state, exp) {
+      if (exp == null) {
+        localStorage.removeItem('lxcb-expires')
+      } else {
+        localStorage.setItem('lxcb-expires', exp)
+      }
+      state.tokenExpiry = exp
     },
     setUser (state, user) {
       state.user = user
@@ -74,6 +95,9 @@ export default new Vuex.Store({
   actions: {
     setToken ({commit}, token) {
       commit('setToken', token)
+    },
+    setExpires ({commit}, exp) {
+      commit('setExpires', exp)
     },
     setUser ({commit}, user) {
       commit('setUser', user)

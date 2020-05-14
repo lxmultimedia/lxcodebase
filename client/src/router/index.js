@@ -36,12 +36,6 @@ export default new Router({
       component: Base,
       children: [
         {
-          path: '',
-          name: 'add',
-          component: NewPost,
-          beforeEnter: authGuard
-        },
-        {
           path: 'new',
           name: 'new',
           component: NewPost,
@@ -51,6 +45,12 @@ export default new Router({
           path: ':id',
           name: 'edit',
           component: NewPost,
+          beforeEnter: authGuard
+        },
+        {
+          path: '',
+          name: 'add',
+          component: Root,
           beforeEnter: authGuard
         }
       ]

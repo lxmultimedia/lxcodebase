@@ -59,10 +59,12 @@ export default {
       router.push(route)
     },
     logout () {
-      this.$store.dispatch('setToken', null)
       this.$store.dispatch('setUser', null)
-      this.$router.push({
-        name: 'root'
+      this.$store.dispatch('setExpires', null)
+      this.$store.dispatch('setToken', null).then(() => {
+        this.$router.push({
+          name: 'root'
+        })
       })
     }
   }

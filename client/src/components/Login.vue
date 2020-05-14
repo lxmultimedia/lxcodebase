@@ -56,11 +56,24 @@ export default {
           email: this.email,
           password: this.password
         })
-        this.$store.dispatch('setToken', response.data.token)
+        this.$store.dispatch('setToken', response.data.token).then(() => {
+          this.autoLogout(response.data.expires)
+          this.$router.push('/browse')
+        })
         this.$store.dispatch('setUser', response.data.user)
-        this.$router.push('/browse')
+        this.$store.dispatch('setExpires', response.data.expires)
       } catch (error) {
         this.error = error.response.data.error
+        this.$store.dispatch('setToken', null)
+      }
+    },
+    autoLogout (expires) {
+      const timeout = expires - Date.now()
+      if (timeout > 0) {
+        setTimeout(() => {
+          this.$store.dispatch('setToken', null)
+        },
+        timeout)
       }
     },
     onSubmit () {
