@@ -16,7 +16,6 @@ export default new Vuex.Store({
     isUserLoggedIn: !!localStorage.getItem('lxcb-token'),
     entries: [],
     categories: [],
-    selectedCategory: null,
     selectedPost: null
   },
   getters: {
@@ -135,9 +134,6 @@ export default new Vuex.Store({
       CodebaseService.updateCategory(payload).then(response => {
         console.log(response.data)
       })
-    },
-    setSelectedCategory ({commit}, payload) {
-      commit('setSelectedCategory', payload)
     },
     deleteListing ({commit, dispatch, state}, payload) {
       CodebaseService.deleteListing(payload.id).then(response => {

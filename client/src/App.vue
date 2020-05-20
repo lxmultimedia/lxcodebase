@@ -44,11 +44,9 @@ export default {
   mounted () {
     this.isLoading = true
     this.$store.dispatch('fetchCategories').then(() => {
-      this.$store.dispatch('fetchEntries').then(() => {
-        setTimeout(() => {
-          this.isLoading = false
-        }, 0)
-      })
+    })
+    this.$store.dispatch('fetchEntries').then(() => {
+      this.isLoading = false
     })
   }
 }
