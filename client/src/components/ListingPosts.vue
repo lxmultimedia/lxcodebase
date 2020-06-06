@@ -44,7 +44,7 @@ export default {
   },
   computed: {
     getEntries () {
-      return this.entries
+      return this.$store.getters.getCategoryListings(parseInt(this.$route.params.id))
     },
     getCategoryTitle () {
       return this.$store.getters.getCategoryTitle(parseInt(this.$route.params.id))
@@ -54,9 +54,6 @@ export default {
     loadContent (e) {
       this.$router.push('/browse/listing/' + e.id)
     }
-  },
-  mounted () {
-    this.entries = this.$store.getters.getCategoryListings(parseInt(this.$route.params.id))
   }
 }
 </script>

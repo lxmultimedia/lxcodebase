@@ -15,8 +15,7 @@ export default new Vuex.Store({
     user: null,
     isUserLoggedIn: !!localStorage.getItem('lxcb-token'),
     entries: [],
-    categories: [],
-    selectedPost: null
+    categories: []
   },
   getters: {
     getEntries: state => {
@@ -30,6 +29,9 @@ export default new Vuex.Store({
     },
     getListing: state => (id) => {
       return state.entries.find(e => e.id === id)
+    },
+    getListings: state => {
+      return state.entries
     },
     getCategoryListings: state => (id) => {
       return state.entries.filter((e) => {
@@ -132,18 +134,12 @@ export default new Vuex.Store({
     },
     updateCategory ({commit}, payload) {
       CodebaseService.updateCategory(payload).then(response => {
-        console.log(response.data)
       })
     },
     deleteListing ({commit, dispatch, state}, payload) {
       CodebaseService.deleteListing(payload.id).then(response => {
         commit('deleteListing', payload)
         router.push('/browse/category/' + payload.CategoryId)
-      })
-    },
-    getListing ({commit}, payload) {
-      CodebaseService.getEntry(payload).then(response => {
-        return response.data
       })
     },
     saveListing ({commit, dispatch}, payload) {

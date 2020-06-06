@@ -85,16 +85,6 @@ export default new Router({
           ]
         },
         {
-          path: 'listing',
-          component: Listing,
-          children: [
-            {
-              path: '',
-              component: ListingDetail
-            }
-          ]
-        },
-        {
           path: 'listing/:id',
           component: Listing,
           children: [

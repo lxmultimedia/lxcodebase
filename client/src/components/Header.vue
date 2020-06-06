@@ -31,7 +31,7 @@
       Login
     </v-btn>
     <v-btn text dark
-    v-if="!$store.state.isUserLoggedIn"
+    v-if="!$store.state.isUserLoggedIn && false"
     :to = "{ name: 'register' }">
       Sign Up
     </v-btn>

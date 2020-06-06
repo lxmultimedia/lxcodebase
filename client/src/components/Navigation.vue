@@ -56,7 +56,6 @@ import vueCustomScrollbar from 'vue-custom-scrollbar'
 export default {
   data () {
     return {
-      categories: null,
       newCategory: '',
       categoryEdit: null,
       settings: {
@@ -82,7 +81,7 @@ export default {
       }
     },
     isLoading () {
-      return this.categories === null
+      return this.getCategories.length === 0
     }
   },
   methods: {
@@ -129,9 +128,6 @@ export default {
       this.categoryEdit = null
       this.newCategory = ''
     }
-  },
-  mounted () {
-    this.categories = this.$store.getters.getCategories
   }
 }
 </script>

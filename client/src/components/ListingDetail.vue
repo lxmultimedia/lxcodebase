@@ -1,5 +1,5 @@
 <template>
-  <div id="listing">
+  <div id="listing" v-if="getEntry">
     <div class="listingcontent">
       <v-alert
         color="#2A3B4D"
@@ -33,7 +33,7 @@
       dense
       readonly
       background-color="lime lighten-5"
-      :value="entry.title"
+      :value="getEntry.title"
       >
       </v-textarea>
     </div>
@@ -52,7 +52,7 @@
       dense
       readonly
       background-color="lime lighten-5"
-      :value="entry.description"
+      :value="getEntry.description"
       ></v-textarea>
     </div>
     <div class="listingcontent">
@@ -68,7 +68,7 @@
       auto-grow
       readonly
       background-color="amber lighten-4"
-      :value="entry.content"
+      :value="getEntry.content"
       ></v-textarea>
     </div>
     <div class="listingcontent chip">
@@ -83,7 +83,7 @@
         small
         outlined
       >
-      {{ sqlToJsDate(entry.createdAt) }}
+      {{ sqlToJsDate(getEntry.createdAt) }}
       </v-chip>
     </div>
     <div class="listingcontent chip">
@@ -98,7 +98,7 @@
         small
         outlined
       >
-      {{ sqlToJsDate(entry.updatedAt) }}
+      {{ sqlToJsDate(getEntry.updatedAt) }}
       </v-chip>
     </div>
     <div class="listingbutton" v-if="this.$store.state.isUserLoggedIn">
@@ -119,10 +119,13 @@ export default {
   },
   computed: {
     getCategoryTitle () {
-      return this.$store.getters.getCategory(this.entry.CategoryId) ? this.$store.getters.getCategory(this.entry.CategoryId) : ''
+      return this.$store.getters.getCategory(this.getEntry.CategoryId) ? this.$store.getters.getCategory(this.getEntry.CategoryId) : ''
     },
     getEntryId () {
-      return this.entry.id
+      return this.getEntry.id
+    },
+    getEntry () {
+      return this.$store.getters.getListing(parseInt(this.$route.params.id))
     }
   },
   methods: {
@@ -145,9 +148,6 @@ export default {
       }
       return sqlDate
     }
-  },
-  mounted () {
-    this.entry = this.$store.getters.getListing(parseInt(this.$route.params.id))
   }
 }
 </script>
