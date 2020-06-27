@@ -128,6 +128,9 @@ export default {
       this.categoryEdit = null
       this.newCategory = ''
     }
+  },
+  mounted () {
+    this.$store.dispatch('fetchCategories')
   }
 }
 </script>

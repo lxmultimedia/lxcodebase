@@ -43,10 +43,8 @@ export default {
   }),
   mounted () {
     this.isLoading = true
-    this.$store.dispatch('fetchCategories').then(() => {
-      this.$store.dispatch('fetchEntries').then(() => {
-        this.isLoading = false
-      })
+    this.$store.dispatch('fetchEntries').then(() => {
+      this.isLoading = false
     })
   }
 }
