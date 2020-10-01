@@ -4,7 +4,7 @@
           <v-app>
             <page-header></page-header>
             <vue-custom-scrollbar class="scroll-area" :settings="settings">
-              <v-content>
+              <v-content id="vcontent">
                 <v-container fluid>
                   <v-row class="content">
                     <clip-loader class="spinner" :size=20 color="#3F51B5" sizeUnit="px" v-if="isLoading"></clip-loader>
@@ -66,10 +66,16 @@ export default {
   position: relative;
   margin: auto;
   width: 100%;
-  height: calc(99vh);
+  padding: 50px 0px 0px 0px;
+  height: calc(100vh - 60px);
 }
 ::-webkit-scrollbar {
   width: 0px;
+}
+@media screen and (min-width: 960px) {
+  #vcontent {
+    padding: 0px 0px 36px 256px !important;
+  }
 }
 .container {
     max-width: 100% !important;
@@ -77,6 +83,7 @@ export default {
 }
 .content {
   padding: 0px 12% !important;
+  width: 99%;
 }
 @media screen and (max-width: 960px) {
   .content {

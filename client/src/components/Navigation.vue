@@ -155,7 +155,7 @@ export default {
   position: relative;
   width: 100%;
   height: calc(100vh - 37px);
-  padding-bottom: 100px;
+  padding: 0px 0px 100px 0px;
 }
 .icon {
   text-align: left;
