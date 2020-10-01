@@ -153,11 +153,9 @@ export default {
 <style scoped>
 .scroll-area {
   position: relative;
-  margin: auto;
   width: 100%;
-  height: calc(100vh);
-  padding-bottom: 50px;
-  margin-bottom: 50px;
+  height: calc(100vh - 37px);
+  padding-bottom: 100px;
 }
 .icon {
   text-align: left;
