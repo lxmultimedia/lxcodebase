@@ -1,24 +1,24 @@
 <template>
-  <vue-custom-scrollbar class="scroll-area"  :settings="settings">
     <v-layout id="app">
       <v-container>
           <v-app>
             <page-header></page-header>
-            <v-content>
-              <v-container fluid>
-                <v-row>
-                  <clip-loader class="spinner" :size=20 color="#3F51B5" sizeUnit="px" v-if="isLoading"></clip-loader>
-                  <router-view class="fill" :key="$route.path" v-if="!isLoading"></router-view>
-                </v-row>
-              </v-container>
-            </v-content>
+            <vue-custom-scrollbar class="scroll-area" :settings="settings">
+              <v-content>
+                <v-container fluid>
+                  <v-row class="content">
+                    <clip-loader class="spinner" :size=20 color="#3F51B5" sizeUnit="px" v-if="isLoading"></clip-loader>
+                    <router-view class="fill" :key="$route.path" v-if="!isLoading"></router-view>
+                  </v-row>
+                </v-container>
+              </v-content>
+            </vue-custom-scrollbar>
             <v-footer color="indigo" app>
               <span class="white--text">&copy; 2020 - www.lxmedia.tk</span>
             </v-footer>
           </v-app>
       </v-container>
     </v-layout>
-  </vue-custom-scrollbar>
 </template>
 
 <script>
@@ -66,13 +66,22 @@ export default {
   position: relative;
   margin: auto;
   width: 100%;
-  height: calc(100vh);
+  height: calc(99vh);
 }
 ::-webkit-scrollbar {
   width: 0px;
 }
 .container {
-    max-width: 90% !important;
+    max-width: 100% !important;
+    padding-right: 0px !important;
+}
+.content {
+  padding: 0px 12% !important;
+}
+@media screen and (max-width: 960px) {
+  .content {
+    padding: 0px 4% !important;
+  }
 }
 .spinner {
   margin: 5% auto;

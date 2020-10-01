@@ -1,13 +1,22 @@
 <template>
-  <div style="text-align: center;">
-    <clip-loader class="spinner" :size=20 color="#3F51B5" sizeUnit="px" v-if="isLoading"></clip-loader>
+  <div style="text-align: center">
+    <clip-loader
+      class="spinner"
+      :size="20"
+      color="#3F51B5"
+      sizeUnit="px"
+      v-if="isLoading"
+    ></clip-loader>
     <div class="icon" v-if="!isLoading">
-      <vue-custom-scrollbar class="scroll-area"  :settings="settings">
+      <vue-custom-scrollbar class="scroll-area" :settings="settings">
         <v-list-item link v-for="c in getCategories" :key="c.id">
           <v-list-item-action v-if="!isEditCategory">
             <v-icon>mdi-apps</v-icon>
           </v-list-item-action>
-          <v-list-item-action v-if="$store.state.isUserLoggedIn && isEditCategory" @click="resetEditCategory()">
+          <v-list-item-action
+            v-if="$store.state.isUserLoggedIn && isEditCategory"
+            @click="resetEditCategory()"
+          >
             <v-tooltip bottom>
               <template v-slot:activator="{ on }">
                 <v-icon v-on="on">mdi-undo</v-icon>
@@ -18,7 +27,10 @@
           <v-list-item-content @click="selectCategory(c)">
             <v-list-item-title>{{ c.title }}</v-list-item-title>
           </v-list-item-content>
-          <v-list-item-action @click="editCategory(c)" v-if="$store.state.isUserLoggedIn && !isEditCategory">
+          <v-list-item-action
+            @click="editCategory(c)"
+            v-if="$store.state.isUserLoggedIn && !isEditCategory"
+          >
             <v-tooltip bottom>
               <template v-slot:activator="{ on }">
                 <v-icon v-on="on">mdi-pencil</v-icon>
@@ -26,7 +38,10 @@
               <span>Edit</span>
             </v-tooltip>
           </v-list-item-action>
-          <v-list-item-action @click="deleteCategory(c)" v-if="$store.state.isUserLoggedIn && isEditCategory">
+          <v-list-item-action
+            @click="deleteCategory(c)"
+            v-if="$store.state.isUserLoggedIn && isEditCategory"
+          >
             <v-tooltip bottom>
               <template v-slot:activator="{ on }">
                 <v-icon v-on="on">mdi-delete</v-icon>
@@ -36,15 +51,15 @@
           </v-list-item-action>
         </v-list-item>
       </vue-custom-scrollbar>
-      <div class="categoryinput">
-        <v-text-field v-if="$store.state.isUserLoggedIn"
+      <div v-if="$store.state.isUserLoggedIn" class="categoryinput">
+        <v-text-field
           label="New Category Name"
           placeholder="Please input category"
           outlined
           append-icon="mdi-keyboard-return"
           v-model="newCategory"
           @keyup.enter.native="onSubmitNewCategory"
-          :background-color= "colorTextfield"
+          :background-color="colorTextfield"
         ></v-text-field>
       </div>
     </div>
@@ -91,7 +106,7 @@ export default {
         this.$store.dispatch('updateCategory', this.categoryEdit)
         this.categoryEdit = null
       } else {
-        const category = {'title': this.newCategory}
+        const category = { title: this.newCategory }
         this.$store.dispatch('newCategory', category)
       }
     },
@@ -140,7 +155,9 @@ export default {
   position: relative;
   margin: auto;
   width: 100%;
-  height: calc(100vh - 140px);
+  height: calc(100vh);
+  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .icon {
   text-align: left;
