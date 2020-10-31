@@ -61,6 +61,7 @@ export default {
 }
 .fill {
   width: 100%;
+  padding-right: 15px;
 }
 .scroll-area {
   position: relative;
