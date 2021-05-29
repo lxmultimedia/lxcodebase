@@ -13,6 +13,7 @@
   "dependencies": {
     "@saeris/vue-spinners": "^1.0.8",
     "axios": "^0.19.2",
+    "fibers": "^5.0.0",
     "vue": "^2.5.2",
     "vue-custom-scrollbar": "^1.1.0",
     "vue-router": "^3.0.1",
@@ -47,7 +48,6 @@
     "eslint-plugin-standard": "^3.0.1",
     "eslint-plugin-vue": "^4.0.0",
     "extract-text-webpack-plugin": "^3.0.0",
-    "fibers": "^4.0.2",
     "file-loader": "^1.1.4",
     "friendly-errors-webpack-plugin": "^1.6.1",
     "html-webpack-plugin": "^2.30.1",
