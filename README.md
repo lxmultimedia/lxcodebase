@@ -7,4 +7,4 @@ includes:
 
 Uses LXCodebase Server (https://github.com/lxmultimedia/lxcodebase_server)
 
-![Image of LXCODEBASE](http://lxbase.tk/lxcodebase.JPG)
+![Image of LXCODEBASE](https://www.lxmcloud.tk/git/lxcodebase.jpg)
