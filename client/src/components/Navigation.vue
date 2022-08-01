@@ -106,11 +106,11 @@ export default {
         this.categoryEdit.title = this.newCategory
         this.$store.dispatch('updateCategory', this.categoryEdit)
         this.categoryEdit = null
-        this.newCategory = ""
+        this.newCategory = ''
       } else {
         const category = { title: this.newCategory }
         this.$store.dispatch('newCategory', category)
-        this.newCategory = ""
+        this.newCategory = ''
       }
     },
     deleteCategory (c) {
@@ -132,7 +132,7 @@ export default {
         .confirm(message, options)
         .then(() => {
           this.$store.dispatch('deleteCategory', c)
-          this.newCategory = ""
+          this.newCategory = ''
           this.categoryEdit = null
         })
         .catch(() => {})
@@ -141,7 +141,7 @@ export default {
       this.categoryEdit = c
       this.newCategory = c.title
     },
-    selectCategory(c) {
+    selectCategory (c) {
       this.selectCategory = c
       this.$router.push('/browse/category/' + c.id)
     },
