@@ -53,7 +53,7 @@
       </vue-custom-scrollbar>
       <div v-if="$store.state.isUserLoggedIn" class="categoryinput">
         <v-text-field
-          label="New Category Name"
+          label="Category"
           placeholder="Please input category"
           outlined
           append-icon="mdi-keyboard-return"
@@ -75,7 +75,8 @@ export default {
       categoryEdit: null,
       settings: {
         maxScrollbarLength: null
-      }
+      },
+      selectedCategory: null
     }
   },
   components: {
@@ -105,9 +106,11 @@ export default {
         this.categoryEdit.title = this.newCategory
         this.$store.dispatch('updateCategory', this.categoryEdit)
         this.categoryEdit = null
+        this.newCategory = ""
       } else {
         const category = { title: this.newCategory }
         this.$store.dispatch('newCategory', category)
+        this.newCategory = ""
       }
     },
     deleteCategory (c) {
@@ -129,6 +132,8 @@ export default {
         .confirm(message, options)
         .then(() => {
           this.$store.dispatch('deleteCategory', c)
+          this.newCategory = ""
+          this.categoryEdit = null
         })
         .catch(() => {})
     },
@@ -136,7 +141,8 @@ export default {
       this.categoryEdit = c
       this.newCategory = c.title
     },
-    selectCategory (c) {
+    selectCategory(c) {
+      this.selectCategory = c
       this.$router.push('/browse/category/' + c.id)
     },
     resetEditCategory () {
@@ -165,6 +171,8 @@ export default {
   position: absolute;
   bottom: 0px;
   margin: 0px 15px;
+  background: white;
+  padding-top: 25px;
 }
 .spinner {
   margin: 10% auto;

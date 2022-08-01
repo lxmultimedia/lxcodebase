@@ -118,7 +118,8 @@ export default new Vuex.Store({
     },
     newCategory ({commit, dispatch}, payload) {
       CodebaseService.postCategory(payload).then(response => {
-        commit('newCategory', {category: response.data, res: response.data})
+        commit('newCategory', { category: response.data, res: response.data })
+        dispatch('fetchCategories')
       })
     },
     deleteCategory ({commit}, payload) {
@@ -132,8 +133,9 @@ export default new Vuex.Store({
         commit('newCategory')
       })
     },
-    updateCategory ({commit}, payload) {
+    updateCategory ({commit, dispatch}, payload) {
       CodebaseService.updateCategory(payload).then(response => {
+        dispatch('fetchCategories')
       })
     },
     deleteListing ({commit, dispatch, state}, payload) {
