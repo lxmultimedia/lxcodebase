@@ -142,7 +142,7 @@ export default {
       this.newCategory = c.title
     },
     selectCategory (c) {
-      this.selectCategory = c
+      this.selectedCategory = c
       this.$router.push('/browse/category/' + c.id)
     },
     resetEditCategory () {
