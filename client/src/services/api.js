@@ -3,7 +3,7 @@ import store from '@/store/store'
 
 export default () => {
   const instance = axios.create({
-    baseURL: 'https://lxcodebaseserver.oa.r.appspot.com',
+    baseURL: 'https://lxcbs.ozona.ch',
     // baseURL: 'http://localhost:8081/',
     headers: { Authorization: 'Bearer ' + store.getters.getToken }
   })

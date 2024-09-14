@@ -14,7 +14,7 @@
                 </v-container>
               </v-content>
             <v-footer color="indigo" app>
-              <span class="white--text">&copy; {{ new Date().getFullYear() }} - www.lxmedia.tk</span>
+              <span class="white--text">&copy; {{ new Date().getFullYear() }} - www.lxmedia.ch</span>
             </v-footer>
           </v-app>
       </v-container>
